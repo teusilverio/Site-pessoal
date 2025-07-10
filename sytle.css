@@ -21,3 +21,145 @@ html, body {
 a:hover {
     text-decoration: underline;
 }
+
+/* Estilos principais para o site pessoal de Mateus */
+
+/* Cores e fontes padrão */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1d3557; /* Azul escuro */
+  font-weight: 600;
+}
+
+p {
+  color: #343a40;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #1d3557; /* Azul escuro */
+  color: white;
+  padding: 1rem 2rem;
+}
+
+header h1 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+header .nav-link {
+  color: #f1f1f1;
+}
+
+header .nav-link.active,
+header .nav-link:hover {
+  background-color: #457b9d;
+  color: white;
+}
+
+/* Área lateral (esquerda) */
+.bg-light {
+  background-color: #e9ecef !important;
+}
+
+.input-group-text {
+  background-color: #dee2e6;
+  border: none;
+}
+
+.form-control {
+  border: none;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Botões e links */
+a {
+  text-decoration: none;
+  color: #1d3557;
+}
+
+a:hover {
+  color: #457b9d;
+}
+
+/* Cartões */
+.card {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+}
+
+.card-title {
+  color: #1d3557;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #495057;
+}
+
+/* Rodapé */
+footer {
+  background-color: #1d3557;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+footer .nav-link {
+  color: #f1f1f1;
+}
+
+footer .nav-link:hover {
+  color: #a8dadc;
+}
+
+/* Responsividade extra */
+@media (max-width: 767.98px) {
+  header, footer {
+    text-align: center;
+  }
+
+  .input-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .form-control {
+    margin-top: 0.5rem;
+  }
+
+  .card-title, .card-text {
+    text-align: center;
+  }
+}
+
+/* Ajustes de espaçamento */
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.p-4 {
+  padding: 1.5rem !important;
+}
+
+.rounded {
+  border-radius: 0.75rem !important;
+}
+.img-perfil {
+  max-width: 100px; /* ou outro valor que preferir */
+  width: 100%;
+}
