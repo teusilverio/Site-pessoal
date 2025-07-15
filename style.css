@@ -1,15 +1,29 @@
+/* Importa as fontes Inter e Playfair Display do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@600&display=swap');
 
-body, p, a, li, span, input, textarea {
-    font-family: 'Merriweather', serif;
+body,
+p,
+a,
+li,
+span,
+input,
+textarea {
+  font-family: 'Merriweather', serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
 }
 
+/* Em telas pequenas (até 768px), centraliza o texto dos itens de navegação quando a nav está em coluna */
 @media (max-width: 768px) {
   .nav.flex-column .nav-item {
     text-align: center;
   }
 }
+
