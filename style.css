@@ -20,6 +20,18 @@ h6 {
   font-family: 'Playfair Display', serif;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.meio {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 /* Em telas pequenas (até 768px), centraliza o texto dos itens de navegação quando a nav está em coluna */
 @media (max-width: 768px) {
   .nav.flex-column .nav-item {
