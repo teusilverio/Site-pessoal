@@ -26,12 +26,6 @@ html, body {
   padding: 0;
 }
 
-.meio {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
 .linkBotao{
   text-align: center;
 }
