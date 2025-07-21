@@ -32,6 +32,26 @@ html, body {
   flex-direction: column;
 }
 
+.linkBotao{
+  text-align: center;
+}
+
+.linkEstilizado {
+  margin: 20px 0px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0034dd;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.linkEstilizado:hover {
+  background-color: #030186;
+}
+
 /* Em telas pequenas (até 768px), centraliza o texto dos itens de navegação quando a nav está em coluna */
 @media (max-width: 768px) {
   .nav.flex-column .nav-item {
